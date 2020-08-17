@@ -1,0 +1,116 @@
+body
+{
+	font-size: 125%;
+	background: grey;
+	margin: 2%;
+}
+
+header{
+	text-align: center;
+	padding-bottom: 15px;
+	background-image: url("flywheel.jpg");
+}
+section{
+	display:inline-block;
+	margin-right: 2%;
+	float: left;
+	width: 30%
+
+}
+nav{
+	font-variant: small-caps;
+	font-family: all;
+	font-size: 100%;
+}
+nav a{
+	display: inline-block;
+	font-weight: bold;
+	color:#ffff;
+	background: #0006cc;
+	border-radius: 15px;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 20%;
+}
+a:hover{
+	background: #B3B3B3;
+	color: #0006cc;
+}
+a:focus{
+	background: #B3B3B3;
+	color: #0006cc;
+}
+a:active{
+	border: 3px solid #000000;
+	}
+
+h1{
+	color:#ffffff;
+	text-align: center;
+	margin:5%;
+	
+}
+h2{
+	background-color: blue
+}
+
+
+img{
+	border: 1px solid #ddd;
+        border-radius: 4px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+}
+table {
+	    border-collapse:border:#808000 ;
+   		width: 400px;
+   		font-family: "Times New Roman", Times, serif;
+   		font-weight: bold;
+   		font-size: 50%;
+	}
+	th {
+		background: #808000; 
+		color: #FFFFFF; 
+	    border: 2px solid #FFFFFF; 
+		background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/03/olive-green-parchment-paper-texture.jpg');
+   		background-repeat: no-repeat;
+	}
+
+td {
+		background: #E0FFFF; 
+		color: #808080; 
+		border: 2px solid #FFFFFF;
+		text-align: center;
+	}
+
+	table, td, th {
+	    
+	    padding: 1%;
+	}
+
+	
+	tr th:first-child, tr td:first-child {
+		text-align: left;
+	}
+
+	tr td {
+		opacity: 0.8;
+
+	}
+
+	
+	tr td:hover {
+		opacity: 2.5;
+		text-align: center;
+		font-size: 120%;
+	}
+}
